@@ -1,0 +1,11 @@
+class AddISP:
+    locatorMenuParticipants = "//a[@href='/participants']"
+    locatorParticipant = "//a[@href='/participants/16']"
+    locatorISP = "(//span[@class = 'gx-link tab--3MP0J'])[3]"
+    locatorAddISP = "(//button[@class = 'ant-btn ant-btn-primary ant-btn-lg'])[2]"
+    locatorCalendar = "//div[@class='ant-picker-input ant-picker-input-active']"
+    locatorThisMonth = "//span[@class='ant-tag ant-tag-blue']"
+    locatorSelectService = "//div[@name='service_id']"
+    locatorAuthorizationNumber = "//input[@name='auth_number']"
+    locatorWeeklyMaxUnits = "//input[@name='weekly_max_units']"
+    locatorSave = "//button[@class='ant-btn ant-btn-primary']"

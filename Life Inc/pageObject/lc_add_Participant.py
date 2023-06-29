@@ -1,0 +1,17 @@
+class AddParticipant:
+
+    locatorParticipants = "//a[@href='/participants']"
+    locatorAddParticipant = "//span[text()='Add Participant']"
+    locatorPopupFirstName = "//input[@name='first_name']"
+    locatorPopupLastName = "//input[@name='last_name']"
+    locatorPopupSelectSex = "//div[@name='sex']"
+    locatorPopupNext = "//span[text()='Next']"
+    locatorPopupMedicaid = "//input[@name='medicaid']"
+    locatorPopupPrimaryDiagnosis = "//div[@name='diagnosis_id']"
+    locatorPopupYear = "//div[@name='year']"
+    locatorPopupSelectMonth = "//div[@name='month']"
+    locatorPopupSelectDay = "//div[@name='date']"
+    locatorPopupProgram = "//span[text()='Select a Program']"
+    locatorAddParticipantTitle = "//div[text()='Add Participant']"
+    locatorDevelopmentSpecialist = "//div[@class='ant-select gx-mb-0 ant-select-multiple ant-select-show-search']"
+    locatorPopupFinish = "//span[text()='Finish']"

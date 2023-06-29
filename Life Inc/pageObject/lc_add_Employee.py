@@ -1,0 +1,16 @@
+class AddEmployee:
+
+    locatorAdministration = "//div[text()='Administration']"
+    locatorEmployees = "//a[@href='/employees']"
+    locatorAddEmployee = "//span[text()='Add Employee']"
+    locatorPopupName = "//input[@name='name']"
+    locatorPopupUsername = "//input[@name='username']"
+    locatorPopupPassword = "//input[@name='password']"
+    locatorPopupNext = "//span[text()='Next']"
+    locatorProgram = "//span[text()='Program Name']"
+    locatorRole = "(//span/input[@class='ant-select-selection-search-input'])[3]"
+    locatorProgramInfo = "//div[text()='Program Info']"
+    locatorProgramDirector = "//div[text()='Program Director']"
+    locatorPopupEmail = "//input[@name='email']"
+    locatorPopupPhoneNumber = "//input[@placeholder='Enter phone number']"
+    locatorPopupFinish = "//span[text()='Finish']"
